@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>e1ba497e-fffa-4b6d-8c5c-dd79418de34d</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>System.Data.Entity.Reactive</Id>
+    <Version>0.1.0</Version>
+    <Title>Reactive Database Context</Title>
+    <Authors>David Neumann &amp; Lukas Rögner</Authors>
+    <Owners>David Neumann &amp; Lukas Rögner</Owners>
+    <Summary>A simple and light-weight wrapper around Entity Framework's  DbContext , which makes it possible to react to changes using the Reactive Extensions.</Summary>
+    <Description>A simple and light-weight wrapper around Entity Framework's  DbContext , which makes it possible to react to changes using the Reactive Extensions.</Description>
+    <ReleaseNotes>Initial release of the reactive database context as a separate package.</ReleaseNotes>
+    <ProjectUrl>https://github.com/lecode-official/reactive-database-context</ProjectUrl>
+    <LicenseUrl>https://raw.githubusercontent.com/lecode-official/reactive-database-context/master/LICENSE</LicenseUrl>
+    <Copyright>Copyright 2016 © David Neumann &amp; Lukas Rögner</Copyright>
+    <Tags>Entity Framework, Reactive Extensions</Tags>
+    <IconUrl>https://raw.githubusercontent.com/lecode-official/reactive-database-context/master/Documentation/Images/Logo128x128.png</IconUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="License.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\System.Data.Entity.Reactive\System.Data.Entity.Reactive.csproj" />
+  </ItemGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>

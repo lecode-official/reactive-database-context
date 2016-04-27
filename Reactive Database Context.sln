@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{DAD285
 		Documentation\Images\Logo64x64.png = Documentation\Images\Logo64x64.png
 	EndProjectSection
 EndProject
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "System.Data.Entity.Reactive", "NuGet\System.Data.Entity.Reactive\System.Data.Entity.Reactive.nuproj", "{E1BA497E-FFFA-4B6D-8C5C-DD79418DE34D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E4B7C5F6-5B7B-479B-92F7-294302FB7FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4B7C5F6-5B7B-479B-92F7-294302FB7FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4B7C5F6-5B7B-479B-92F7-294302FB7FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BA497E-FFFA-4B6D-8C5C-DD79418DE34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BA497E-FFFA-4B6D-8C5C-DD79418DE34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BA497E-FFFA-4B6D-8C5C-DD79418DE34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BA497E-FFFA-4B6D-8C5C-DD79418DE34D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{055A2F9C-A840-426F-816C-B3851F9081A6} = {5B7E95CE-A641-4F1C-A213-77ED7E23CCDB}
 		{DAD28555-077A-4A30-869E-4C800C86E3BE} = {055A2F9C-A840-426F-816C-B3851F9081A6}
+		{E1BA497E-FFFA-4B6D-8C5C-DD79418DE34D} = {4DB2F7CF-8877-40FB-8DFA-3608833E3618}
 	EndGlobalSection
 EndGlobal
