@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{4DB2F7CF-8877-40FB-8DFA-3608833E3618}"
