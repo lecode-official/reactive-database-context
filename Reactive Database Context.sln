@@ -12,6 +12,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE = LICENSE
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{4DB2F7CF-8877-40FB-8DFA-3608833E3618}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{055A2F9C-A840-426F-816C-B3851F9081A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{DAD28555-077A-4A30-869E-4C800C86E3BE}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Images\Banner.png = Documentation\Images\Banner.png
+		Documentation\Images\Logo.fw.png = Documentation\Images\Logo.fw.png
+		Documentation\Images\Logo.ico = Documentation\Images\Logo.ico
+		Documentation\Images\Logo1024x1024.png = Documentation\Images\Logo1024x1024.png
+		Documentation\Images\Logo128x128.png = Documentation\Images\Logo128x128.png
+		Documentation\Images\Logo256x256.png = Documentation\Images\Logo256x256.png
+		Documentation\Images\Logo32x32.png = Documentation\Images\Logo32x32.png
+		Documentation\Images\Logo512x512.png = Documentation\Images\Logo512x512.png
+		Documentation\Images\Logo64x64.png = Documentation\Images\Logo64x64.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +42,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{055A2F9C-A840-426F-816C-B3851F9081A6} = {5B7E95CE-A641-4F1C-A213-77ED7E23CCDB}
+		{DAD28555-077A-4A30-869E-4C800C86E3BE} = {055A2F9C-A840-426F-816C-B3851F9081A6}
 	EndGlobalSection
 EndGlobal
